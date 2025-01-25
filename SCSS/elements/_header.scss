@@ -1,0 +1,125 @@
+.header {
+    height: 70px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background-color: $color-white;
+  
+    &__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+    }
+  
+    .logo {
+      font-weight: bold;
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: $color-primary;
+    }
+  
+    .header__nav {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  
+      @include mobile {
+        position: absolute;
+        left: 0;
+        top: 70px;
+        flex-direction: column;
+        background-color: $color-white;
+        width: 100%;
+        padding-bottom: 20px;
+        display: none; // Defaultně skryté
+      }
+    }
+  
+    .nav__element {
+      & + & {
+        margin-left: 20px;
+      }
+  
+      @include mobile {
+        margin: 0;
+      }
+    }
+  
+    .nav__link {
+      color: $color-grey;
+      font-weight: 700;
+      font-size: 0.875rem;
+      text-transform: uppercase;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-bottom: 4px solid transparent;
+      letter-spacing: 0.1875rem;
+  
+      &:hover {
+        color: $color-black;
+        border-color: $color-primary;
+      }
+  
+      @include mobile {
+        display: block;
+        padding: 14px 20px;
+      }
+    }
+  
+    .menu__btn {
+      display: none;
+  
+      @include mobile {
+        display: block;
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+        opacity: 0;
+  
+        &:checked {
+          ~ .menu__toggle {
+            span {
+              &:first-child {
+                transform: rotate(45deg) translate(2px, 5px);
+              }
+  
+              &:nth-child(2) {
+                opacity: 0;
+              }
+  
+              &:last-child {
+                transform: rotate(-45deg) translate(2px, -5px);
+              }
+            }
+          }
+  
+          ~ .header__nav {
+            display: flex;
+          }
+        }
+      }
+    }
+  
+    .menu__toggle {
+      display: none;
+  
+      span {
+        width: 20px;
+        height: 2px;
+        display: block;
+        margin-bottom: 3px;
+        background-color: $color-primary;
+        transition: 0.3s all ease-in-out;
+  
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+  
+      @include mobile {
+        display: block;
+        cursor: pointer;
+      }
+    }
+  }
+  
