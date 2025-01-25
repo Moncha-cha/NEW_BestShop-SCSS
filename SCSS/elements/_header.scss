@@ -25,13 +25,14 @@
   
       @include mobile {
         position: absolute;
-        left: 0;
+        right: 0;
         top: 70px;
         flex-direction: column;
         background-color: $color-white;
-        width: 100%;
+        width: 50%;
         padding-bottom: 20px;
-        display: none; // Defaultně skryté
+        display: none;
+        text-align: right;
       }
     }
   
@@ -54,6 +55,7 @@
       text-decoration: none;
       border-bottom: 4px solid transparent;
       letter-spacing: 0.1875rem;
+      
   
       &:hover {
         color: $color-black;
@@ -95,6 +97,7 @@
   
           ~ .header__nav {
             display: flex;
+            
           }
         }
       }

@@ -74,14 +74,15 @@ input {
 
 @media (width <= 792px) {
   .header .header__nav {
+    text-align: right;
     background-color: #fff;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
     padding-bottom: 20px;
     display: none;
     position: absolute;
     top: 70px;
-    left: 0;
+    right: 0;
   }
 }
 
