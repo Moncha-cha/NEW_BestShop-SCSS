@@ -208,4 +208,50 @@ h2 {
   font-size: 2.5rem;
   font-weight: 300;
 }
+
+.opening {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  overflow: hidden;
+}
+
+.opening__content {
+  text-align: center;
+  margin-top: 130px;
+}
+
+@media (width <= 792px) {
+  .opening__content {
+    margin-top: 100px;
+  }
+}
+
+.opening__header {
+  font-family: Raleway, sans-serif;
+  font-size: 3.0625rem;
+}
+
+.opening__heading {
+  margin-top: 20px;
+  margin-bottom: 38px;
+}
+
+@media (width <= 792px) {
+  .opening__heading {
+    padding: 0 70px;
+  }
+}
+
+.opening__image {
+  width: 100%;
+  height: auto;
+}
+
+@media (width <= 792px) {
+  .opening__image {
+    width: 220%;
+    transform: translateX(-28%);
+  }
+}
 /*# sourceMappingURL=index.c869e442.css.map */
