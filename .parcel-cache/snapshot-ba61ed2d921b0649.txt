@@ -1,7 +1,7 @@
 4354
 72C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\chalk\readme.md133822763125645802 0
 92C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\htmlparser2\lib\WritableStream.d.ts133822763130423023 0
-48C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\dist133822976435853087 1
+48C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\dist133822986904640495 1
 108C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\caniuse-lite\data\features\constraint-validation.js133822763133485041 0
 69C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\SCSS\settings\_index.scss133822819226776707 0
 90C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\caniuse-lite\data\features\ime.js133822763141888712 0
@@ -95,7 +95,7 @@
 101C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@swc\helpers\esm\_class_private_field_set.js133822763133704451 0
 102C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@swc\helpers\cjs\_class_private_field_set.cjs133822763129844577 0
 102C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@parcel\packager-js\src\GlobalOutputFormat.js133822763127091938 0
-58C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\SCSS\main.scss133822904195054418 0
+58C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\SCSS\main.scss133822984352049200 0
 85C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@swc\helpers\esm\_type_of.js133822763135245436 0
 84C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\semver\ranges\intersects.js133822763129176366 0
 73C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\tslib\tslib.html133822763123671092 0
@@ -171,7 +171,7 @@
 97C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\lmdb\dependencies\lz4\lib\dll\liblz4.def133822763133096075 0
 90C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@parcel\workers\lib\childState.js133822763126373851 0
 82C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\escalade\sync\index.d.mts133822763126493541 0
-71C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\SCSS\elements\_buttons.scss133822741155961432 0
+71C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\SCSS\elements\_buttons.scss133822986646173464 0
 78C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\lmdb\dependencies\lz4133822763128129162 1
 101C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@parcel\watcher\src\macos\FSEventsBackend.hh133822763129914388 0
 107C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@parcel\transformer-babel\lib\remapAstLocations.js133822763128398449 0
@@ -199,7 +199,7 @@
 88C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\weak-lru-cache\rollup.config.js133822763125346598 0
 70C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\SCSS\elements\_header.scss133822966261985912 0
 88C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\caniuse-lite\data\regions\TZ.js133822763146451936 0
-71C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\SCSS\elements\_opening.scss133822977675990616 0
+71C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\SCSS\elements\_opening.scss133822988429148966 0
 92C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@parcel\transformer-babel\README.md133822763129395785 0
 116C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\mdb_stat.c133822763130996586 0
 77C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\json5\lib\parse.d.ts133822763129046705 0
@@ -1662,7 +1662,7 @@
 96C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\node-gyp-build-optional-packages\bin.js133822763123730923 0
 86C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@parcel\optimizer-css\LICENSE133822763123272143 0
 96C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@parcel\packager-raw\src\RawPackager.js133822763124379191 0
-72C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\dist\Background.96fc9b9b.png133822976435483753 0
+72C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\dist\Background.96fc9b9b.png133822986904279522 0
 88C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\caniuse-lite\data\regions\PT.js133822763145030607 0
 103C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\node-gyp-build-optional-packages\build-test.js133822763124169763 0
 98C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\node-gyp-build-optional-packages\index.js133822763124588642 0
@@ -3750,7 +3750,7 @@
 80C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@parcel\reporter-tracer133822763124688362 1
 81C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@parcel\resolver-default133822763124678388 1
 75C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@parcel\runtime-js133822763130881814 1
-78C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\dist\NEW_BestShop SCSS.3464ddca.js133822976434975089 0
+78C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\dist\NEW_BestShop SCSS.3464ddca.js133822986903780844 0
 86C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@parcel\runtime-react-refresh133822763124668417 1
 78C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@parcel\rust\index.js133822763124867895 0
 87C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@parcel\runtime-service-worker133822763124678388 1
@@ -4139,7 +4139,7 @@
 91C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@parcel\feature-flags\src\types.js133822763125705641 0
 84C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@parcel\events\package.json133822763128049429 0
 75C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@parcel\events\src133822763127181691 1
-71C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\dist\index.c869e442.css.map133822976435543686 0
+71C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\dist\index.c869e442.css.map133822986904339351 0
 97C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@parcel\events\test\ValueEmitter.test.js133822763127361214 0
 85C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@parcel\events\src\errors.js133822763125715616 0
 85C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\@parcel\events\lib\errors.js133822763125436360 0
@@ -4337,9 +4337,9 @@
 68C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\.bin\semver133822763150705633 0
 84C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\.bin\update-browserslist-db133822763150685677 0
 88C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\node_modules\.bin\update-browserslist-db.cmd133822763150685677 0
-67C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\dist\index.c869e442.css133822976434965109 0
-59C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\dist\index.html133822976435833308 0
-82C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\dist\NEW_BestShop SCSS.3464ddca.js.map133822976435543686 0
+67C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\dist\index.c869e442.css133822986903790823 0
+59C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\dist\index.html133822986904630451 0
+82C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\dist\NEW_BestShop SCSS.3464ddca.js.map133822986904339351 0
 60C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\CSS\main.css.map133822761551179856 0
 60C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\assets\Arrow.svg133810571651051448 0
 65C:\Users\Lenovo\CodersLab\NEW_BestShop SCSS\assets\Background.png133810571651071396 0
