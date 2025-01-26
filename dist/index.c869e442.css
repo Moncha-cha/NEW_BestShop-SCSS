@@ -937,4 +937,32 @@ h2 {
 .contact .form .btn:hover {
   background-color: #0682b3;
 }
+
+.footer {
+  padding: 20px 0;
+  box-shadow: 0 -5px 40px #00000029;
+}
+
+.footer__container {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.footer__info {
+  flex-direction: column;
+  justify-content: space-around;
+  display: flex;
+}
+
+.footer__copy {
+  color: #a5a5a5;
+  margin-top: 6px;
+  font-size: .6875rem;
+  line-height: 1.5rem;
+}
+
+.footer__icons a:first-of-type {
+  margin-right: 25px;
+}
 /*# sourceMappingURL=index.c869e442.css.map */
