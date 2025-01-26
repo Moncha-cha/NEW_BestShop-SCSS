@@ -806,4 +806,135 @@ h2 {
 .pricing__item--not:before {
   background-image: url("Close.22110c7d.svg");
 }
+
+.contact {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
+  display: flex;
+  box-shadow: 0 4px 8px #0000001a;
+}
+
+.contact__column {
+  flex: 45%;
+  margin-bottom: 20px;
+}
+
+.contact__title {
+  color: #08a6e4;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.contact__instruction {
+  color: #a5a5a5;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.contact__details {
+  flex-direction: column;
+  display: flex;
+}
+
+.contact__details .details__item {
+  color: #332c2c;
+  align-items: center;
+  margin-bottom: 10px;
+  text-decoration: none;
+  display: flex;
+}
+
+.contact__details .details__item img {
+  margin-right: 10px;
+}
+
+.contact__details .details__item:hover {
+  color: #08a6e4;
+}
+
+.contact .form {
+  flex-direction: column;
+  display: flex;
+}
+
+.contact .form__field {
+  margin-bottom: 20px;
+}
+
+.contact .form__field .form__label {
+  color: #332c2c;
+  margin-bottom: 5px;
+  font-weight: 500;
+  display: block;
+}
+
+.contact .form__field .form__input {
+  color: #332c2c;
+  border: 1px solid #a5a5a5;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.contact .form__consent {
+  margin-bottom: 20px;
+}
+
+.contact .form__consent .form__checkbox {
+  align-items: flex-start;
+  gap: 10px;
+  display: flex;
+}
+
+.contact .form__consent .form__checkbox input {
+  margin-right: 10px;
+}
+
+.contact .form__consent .form__checkbox .checkbox {
+  border: 1px solid #a5a5a5;
+  border-radius: 3px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+}
+
+.contact .form__consent .form__checkbox input[type="checkbox"]:checked + .checkbox:after {
+  content: "";
+  border: 2px solid #08a6e4;
+  border-width: 0 2px 2px 0;
+  width: 6px;
+  height: 12px;
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  transform: rotate(45deg);
+}
+
+.contact .form__consent .form__checkbox .consent__text {
+  color: #332c2c;
+  width: calc(100% - 30px);
+  font-size: .875rem;
+}
+
+.contact .form .btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #08a6e4;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: background-color .3s;
+}
+
+.contact .form .btn:hover {
+  background-color: #0682b3;
+}
 /*# sourceMappingURL=index.c869e442.css.map */
