@@ -390,4 +390,250 @@ h2 {
   color: #a5a5a5;
   margin-top: 19px;
 }
+
+.benefits {
+  background-color: #f7f7f7;
+  padding: 100px 0;
+}
+
+@media (width <= 1024px) {
+  .benefits {
+    padding: 50px 0;
+  }
+}
+
+.benefits__container {
+  padding: 0 100px;
+}
+
+@media (width <= 1024px) {
+  .benefits__container {
+    padding: 0 15px;
+  }
+}
+
+.benefits__single {
+  background-color: #fff;
+  border: 1px solid #e8e9ed;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 37px;
+  display: flex;
+}
+
+@media (width <= 1024px) {
+  .benefits__single {
+    align-items: center;
+    flex-direction: column-reverse !important;
+    padding: 0 20px !important;
+  }
+}
+
+.benefits__single--notebook {
+  --accent-color: #fb3b64;
+}
+
+.benefits__single--notebook .benefits__image {
+  margin-bottom: 38px;
+  margin-right: 117px;
+}
+
+@media (width <= 1024px) {
+  .benefits__single--notebook .benefits__image {
+    margin: 40px 0 0;
+  }
+}
+
+.benefits__single--notebook .benefits__image:before {
+  content: "";
+  background-color: var(--accent-color);
+  border-radius: 20px;
+  width: 180px;
+  height: 180px;
+  display: block;
+  position: absolute;
+  top: -40px;
+  right: 0;
+  transform: rotate(45deg);
+}
+
+@media (width <= 1024px) {
+  .benefits__single--notebook .benefits__image:before {
+    width: 90px;
+    height: 90px;
+    top: -10px;
+    right: -10px;
+  }
+}
+
+.benefits__single--notebook .benefits__image img {
+  z-index: 2;
+  width: 386px;
+  height: auto;
+  position: relative;
+}
+
+@media (width <= 1024px) {
+  .benefits__single--notebook .benefits__image img {
+    width: 192px;
+  }
+
+  .benefits__single--notebook .benefits__text {
+    margin: 30px 0;
+  }
+}
+
+.benefits__single--phone {
+  --accent-color: #08a6e4;
+  flex-direction: row-reverse;
+  padding: 0 20px 0 70px;
+}
+
+@media (width <= 1024px) {
+  .benefits__single--phone .benefits__image {
+    margin-top: 30px;
+  }
+}
+
+.benefits__single--phone .benefits__image:before {
+  content: "";
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  width: 320px;
+  height: 320px;
+  display: block;
+  position: absolute;
+  top: -20px;
+  left: 0;
+}
+
+@media (width <= 1024px) {
+  .benefits__single--phone .benefits__image:before {
+    width: 131px;
+    height: 131px;
+    top: -15px;
+  }
+}
+
+.benefits__single--phone .benefits__image img {
+  width: 426px;
+  height: auto;
+}
+
+@media (width <= 1024px) {
+  .benefits__single--phone .benefits__image img {
+    width: 175px;
+  }
+}
+
+.benefits__single--phone .benefits__text {
+  margin: 70px 0;
+}
+
+@media (width <= 1024px) {
+  .benefits__single--phone .benefits__text {
+    margin: 30px 0;
+  }
+}
+
+.benefits__double {
+  --accent-color: #55dfb4;
+  display: flex;
+}
+
+@media (width <= 1024px) {
+  .benefits__double {
+    flex-direction: column;
+  }
+}
+
+.benefits__double > div {
+  margin-bottom: 0;
+}
+
+.benefits__double .benefits__single--solo {
+  max-width: 620px;
+}
+
+.benefits__double .benefits__single--solo .benefits__text {
+  max-width: none;
+  margin: 70px 35px;
+}
+
+@media (width <= 1024px) {
+  .benefits__double .benefits__single--solo {
+    max-width: none;
+  }
+
+  .benefits__double .benefits__single--solo .benefits__text {
+    margin: 0;
+    padding: 30px 0;
+  }
+}
+
+.benefits__double .benefits__single--image {
+  background-color: var(--accent-color);
+  border: none;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+  display: flex;
+}
+
+@media (width <= 1024px) {
+  .benefits__double .benefits__single--image {
+    margin-top: -5px;
+    margin-left: 0;
+  }
+}
+
+.benefits__double .benefits__single--image img {
+  width: 295px;
+  height: auto;
+  margin-top: 55px;
+}
+
+.benefits__text {
+  box-sizing: content-box;
+  max-width: 415px;
+  margin: 90px 36px;
+}
+
+@media (width <= 1024px) {
+  .benefits__text {
+    max-width: none;
+    margin: 0;
+  }
+}
+
+.benefits__text:after {
+  content: "";
+  background-color: var(--accent-color);
+  width: 332px;
+  height: 4px;
+  margin-top: 50px;
+  display: block;
+}
+
+@media (width <= 1024px) {
+  .benefits__text:after {
+    display: none;
+  }
+}
+
+.benefits__description {
+  margin-top: 30px;
+  line-height: 1.3rem;
+}
+
+.benefits__image {
+  position: relative;
+}
+
+.benefits__image img {
+  z-index: 2;
+  position: relative;
+}
 /*# sourceMappingURL=index.c869e442.css.map */
